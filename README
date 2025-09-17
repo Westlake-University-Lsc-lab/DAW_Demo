@@ -10,11 +10,8 @@
 
 
   -----------------------------------------------------------------------------
-
-
   Content
   -----------------------------------------------------------------------------
-
   README.txt        :  This file.
 
   ReleaseNotes.txt  :  Revision History and notes.
@@ -29,10 +26,8 @@
   - Linux 32/64Bit
   - Digitizer X730/ x725 family with DAW firmware
 
-
   How to get support
   ------------------
-
   CAEN makes available the technical support of its specialists for requests
   concerning CAEN products. Use the support form available at the following link:
   https://www.caen.it/support-services/support-form
@@ -40,9 +35,17 @@
 
   Description:
   -----------------------------------------------------------------------------
+  Add two functions:
+  1. Fixed-duration data taking
+     add 'ACQ_TIME' paramter in DAW_Config.txt, following by a int type number unit of Second, with syntax
+     ACQ_TIME  [time length]
 
-
+  2. Print RunStart time and Duration in the tail of rawdata file,  like:
+     /mnt/data/PMT/R8520_406/daq_acq_time_raw_b0_file0_20250916_193019_338_10s.bin
+     
 
   Syntax
   -----------------------------------------------------------------------------
   DAW_Demo [config file]
+
+  
