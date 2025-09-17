@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/DAW_WXY.dir/src/DAWDemoFunc.c.o CMakeFiles/DAW_WXY.dir/src/conio.c.o CMakeFiles/DAW_WXY.dir/src/main.c.o  -o DAW_WXY  -lCAENDigitizer -lklibc-abS-oVB3xeRN8SFypUWbQvR33nc -lCAENComm -lCAENDigitizer -lCAENVME /usr/lib/libftd2xx.so -lm -lklibc-abS-oVB3xeRN8SFypUWbQvR33nc -lCAENComm -lCAENVME /usr/lib/libftd2xx.so -lm 

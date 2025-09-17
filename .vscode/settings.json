@@ -1,0 +1,26 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#183322",
+        "titleBar.activeBackground": "#214830",
+        "titleBar.activeForeground": "#F6FBF8"
+    },
+    "clangd.arguments": [
+        // "--background-index",
+        // "-j=90",
+        // "--compile-commands-dir=build",
+        // "--suggest-missing-includes",
+        // "--completion-style=detailed",
+        // // "--all-scopes-completion",
+        // "--header-insertion=iwyu",
+        // // "--pch-storage=memory",
+        // "--cross-file-rename",
+        // "--enable-config",
+        // "--fallback-style=webkit",
+        // // "--pretty",
+        // // "--clang-tidy",
+        "--query-driver=clang",
+        // "--clang-tidy-checks=-modernize*",
+
+        // "--clang-tidy-checks=-*,cppcoreguidelines-*,performance-*"
+    ],
+}

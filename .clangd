@@ -1,0 +1,46 @@
+CompileFlags:
+  Add: [
+      "-std=c",
+      "-I./include",
+      "-I../include",
+      # "-I/usr/local/include",
+      # "-I/home/ROOT/root/include",
+      # "-I/home/wxy/software/ROOT/root-6.28.12-install/include",
+      # "-I/home/wxy/software/geant4-v10.7.4-install/include/Geant4",
+      # "/home/Geant4/install/include/Geant4"
+      "-Xiwyu",
+    ]
+
+Diagnostics:
+  ClangTidy:
+    # Add: ["modernize-*", "performance-*"]
+    # Checks:  [modernize-*,
+    # "readbility-*"
+    # ]
+    Remove: ["clang-analyzer-alpha.*", "cppcoreguidelines-*","modernize-*"]
+    CheckOptions:
+      key: modernize-use-nullptr.NullMacros
+      value: "NULL,0"
+
+Index:
+  Background: "Build"
+  Enabled: true
+  OnOpen: true
+
+Completion:
+  AllScopes: true
+
+InlayHints:
+  Enabled: true
+  # BlockEnd: false
+  Designators: true
+  ParameterNames: true
+  DeducedTypes: true
+  TypeNameLimit: 24
+Hover:
+  DeducedTypes: true
+  ShowAKA: true
+  ShowDocumentation: true
+  ShowCategory: true
+  std: true
+  ShowModifiers: true

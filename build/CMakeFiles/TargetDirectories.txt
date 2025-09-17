@@ -1,0 +1,7 @@
+/home/daq/relics_daq-main/daw_demo-v1.3/build/CMakeFiles/install/strip.dir
+/home/daq/relics_daq-main/daw_demo-v1.3/build/CMakeFiles/install/local.dir
+/home/daq/relics_daq-main/daw_demo-v1.3/build/CMakeFiles/install.dir
+/home/daq/relics_daq-main/daw_demo-v1.3/build/CMakeFiles/list_install_components.dir
+/home/daq/relics_daq-main/daw_demo-v1.3/build/CMakeFiles/rebuild_cache.dir
+/home/daq/relics_daq-main/daw_demo-v1.3/build/CMakeFiles/edit_cache.dir
+/home/daq/relics_daq-main/daw_demo-v1.3/build/CMakeFiles/DAW_WXY.dir
