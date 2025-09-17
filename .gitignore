@@ -1,0 +1,30 @@
+### tmp files loading jpuyter notebook
+__pycache__
+.ipynb_checkpoints
+
+
+### some path to store data or output
+oldMakefile
+
+
+
+### some software packages
+node_modules
+
+
+### some tmp files
+
+*~
+
+
+*.tar.gz
+*.ipynb
+
+### json files
+*.json
+
+
+
+
+
+
